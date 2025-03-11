@@ -8,7 +8,7 @@ export interface Testimonial {
 
 const testimonials: Testimonial[] = [
   {
-    text: "The tailored solutions provided by this developer transformed our workflow at Betafits. His expertise in automation and web development has driven our growth and efficiency.",
+    text: "The tailored solutions provided by this developer transformed our workflow at Betafits. His expertise in automation has driven our growth and efficiency.",
     name: "Mattew Prisco",
     position: "CEO",
     company: "Betafits",
