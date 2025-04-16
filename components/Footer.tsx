@@ -74,7 +74,7 @@ const Footer = () => {
             <p className="text-muted-foreground">
               60, Maragoli, Mbale Gisambayi Road
             </p>
-            <p className="text-muted-foreground">Phone: +254741984517</p>
+            <p className="text-muted-foreground">Phone: +254707317185</p>
             <p className="text-muted-foreground">
               Email: mayodisaac3@gmail.com
             </p>
