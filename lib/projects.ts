@@ -91,6 +91,15 @@ const workingProjects = [
     liveLink: "https://mayodi.help",
     githubLink: "https://github.com/mayodi3/BSHOOT",
   },
+  {
+    title: "The Tranquil Hospitals Limited",
+    description:
+      "A statically generated site hosted on Truehost (accessible via thetranquilhospitalsltd.co.ke).",
+    image: "/tranquil-website.png",
+    tags: ["Static Site", "HTML", "CSS", "JavaScript"],
+    liveLink: "https://thetranquilhospitalsltd.co.ke",
+    githubLink: "https://github.com/mayodi3",
+  },
 ];
 
 export { projects, workingProjects };
