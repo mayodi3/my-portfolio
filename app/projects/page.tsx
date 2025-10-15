@@ -20,7 +20,7 @@ const ProjectsPage = () => {
                 alt={project.title}
                 width={600}
                 height={400}
-                className="w-full h-48 object-cover"
+                className="w-full h-48 lg:h-[500px] object-cover"
               />
               <CardHeader>
                 <CardTitle>{project.title}</CardTitle>

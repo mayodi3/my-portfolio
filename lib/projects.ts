@@ -3,6 +3,8 @@ export interface Project {
   description: string;
   image: string;
   tags: string[];
+  liveLink?: string;
+  githubLink?: string;
 }
 
 const projects: Project[] = [
@@ -99,6 +101,30 @@ const workingProjects = [
     tags: ["Static Site", "HTML", "CSS", "JavaScript"],
     liveLink: "https://thetranquilhospitalsltd.co.ke",
     githubLink: "https://github.com/mayodi3",
+  },
+  {
+    title: "Broadpack Hotels",
+    description:
+      "A modern hotel booking and management website featuring room reservations, amenities showcase, and customer service integration for enhanced guest experience.",
+    image: "/broadpack.png",
+    tags: ["Hospitality", "Booking System", "Web Development"],
+    liveLink: "https://broadparkhotels.co.ke",
+  },
+  {
+    title: "Mungoma Hospital",
+    description:
+      "A comprehensive hospital website providing information on medical services, departments, patient care facilities, and online appointment scheduling.",
+    image: "/mungoma.png",
+    tags: ["Healthcare", "Medical Services", "Web Development"],
+    liveLink: "https://mungomahospitals.co.ke",
+  },
+  {
+    title: "Tamuz Electricals Ecommerce",
+    description:
+      "A fully functional ecommerce platform for electrical products featuring product catalog, shopping cart, secure checkout, and inventory management.",
+    image: "/tamuz.png",
+    tags: ["Ecommerce", "Online Store", "Electrical Products"],
+    liveLink: "https://tamuzelectricals.co.ke",
   },
 ];
 
